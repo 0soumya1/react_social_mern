@@ -1,5 +1,6 @@
 import React from "react";
 import "./Post.css";
+import profPic from "../../assets/profile.png";
 function Post() {
   return (
     <div className="postContainer">

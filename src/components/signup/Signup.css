@@ -1,0 +1,33 @@
+.card2 {
+  height: 100%;
+  box-shadow: 0px 4px 11px 1px skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: large;
+  margin: 15px;
+  padding: 5px;
+}
+.invalid-input {
+  color: red;
+  margin-top: -16px;
+  display: block;
+  margin-left: -84px;
+}
+.signupButton {
+  width: 170px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  margin-top: 15px;
+}

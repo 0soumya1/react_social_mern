@@ -11,10 +11,8 @@ function Home() {
       <TopBar />
       <div className="homeContainer">
         <SideBar />
-        <div>hello</div>
-        <div>hello2</div>
-        {/* <Feed /> */}
-        {/* <RightBar /> */}
+        <Feed />
+        <RightBar />
       </div>
     </>
   );

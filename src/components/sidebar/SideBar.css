@@ -1,8 +1,9 @@
 .sideBar {
   flex: 3;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 69px);
   overflow-y: scroll;
 }
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -12,8 +13,9 @@
 ::-webkit-scrollbar-thumb {
   background-color: rgb(209, 205, 205);
 }
+
 .sideWrapper {
-  padding: 20px;
+  padding: 10px;
 }
 .sidebarList {
   padding: 0px;

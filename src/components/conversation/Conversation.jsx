@@ -3,7 +3,7 @@ import "./Conversation.css";
 import profPic from "../../assets/profile.png";
 import noAvtarPic from "../../assets/no_avatar.png";
 import axios from "axios";
-import { BASE_URL } from "../../utils/Strings";
+import { All_USER_PROFILE, BASE_URL } from "../../utils/Strings";
 
 function Conversation({ conversation, currentUser }) {
   const [user, setUser] = useState(null);
@@ -15,6 +15,8 @@ function Conversation({ conversation, currentUser }) {
     const getUser = async () => {
       try {
         const res = await axios(BASE_URL + "users?userId=" + friendId);
+        // const res = await axios(BASE_URL + All_USER_PROFILE);
+        // console.log("response", res?.data?.data);
         setUser(res?.data?.data);
       } catch (err) {
         console.log(err, "err");
@@ -26,7 +28,7 @@ function Conversation({ conversation, currentUser }) {
   return (
     <div className="conversationContainer">
       <img
-        src={user?.profilePic ? user?.profilePic : noAvtarPic}
+        src={user?.profilePic ? user?.profilePic : profPic}
         alt=""
         className="conversationImg"
       />

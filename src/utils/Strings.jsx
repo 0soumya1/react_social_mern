@@ -9,3 +9,4 @@ export const GET_CONV = "conversations/";
 export const GET_MSG = "messages/";
 export const POST_MSG = "messages/addMsg";
 export const USER_PROFILE = "users/getUser/";
+export const All_USER_PROFILE = "users/get";

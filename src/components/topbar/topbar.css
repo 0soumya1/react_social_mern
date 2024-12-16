@@ -80,3 +80,7 @@
   object-fit: cover;
   cursor: pointer;
 }
+.nameTxt {
+  font-style: 16px;
+  color: white;
+}
